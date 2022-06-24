@@ -33,3 +33,7 @@ void PDRelease () {
 bool PDIsSupported () {
     return CMPedometer.isStepCountingAvailable;
 }
+
+int PDIsAuth () {
+    return CMPedometer.authorizationStatus;
+}
